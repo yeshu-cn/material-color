@@ -50,6 +50,18 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "ffi",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/ffi-1.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "file",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/file-6.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///Users/yeshu/Develop/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -58,6 +70,18 @@
     {
       "name": "flutter_test",
       "rootUri": "file:///Users/yeshu/Develop/flutter/packages/flutter_test",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "js",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/js-0.6.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -76,6 +100,78 @@
     {
       "name": "path",
       "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_linux",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_platform_interface",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_provider_windows",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "platform",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/platform-3.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "plugin_platform_interface",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/plugin_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "process",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/process-4.2.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences-2.0.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_linux",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_linux-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_macos",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_macos-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_platform_interface",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_platform_interface-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_web",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_web-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "shared_preferences_windows",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_windows-2.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -134,13 +230,25 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "win32",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/win32-2.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.13"
+    },
+    {
+      "name": "xdg_directories",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/xdg_directories-0.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "material_colors",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-08-05T06:20:36.415447Z",
+  "generated": "2021-08-10T04:14:20.914185Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }

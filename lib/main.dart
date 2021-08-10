@@ -3,6 +3,8 @@ import 'package:material_colors/tab_colors.dart';
 import 'package:material_colors/tab_palette.dart';
 import 'package:material_colors/tab_set.dart';
 
+import 'dynamic_theme.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -11,12 +13,18 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Material Color',
-      theme: ThemeData(
-        primarySwatch: Colors.teal,
+    return new DynamicTheme(
+      defaultBrightness: Brightness.light,
+      data: (brightness) => ThemeData.from(
+          colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.pink, backgroundColor: Colors.white, accentColor: Colors.teal),
       ),
-      home: MyHomePage(title: 'Material Color Palette'),
+      themedWidgetBuilder: (context, theme) {
+        return MaterialApp(
+          title: 'Material Color',
+          theme: theme,
+          home: MyHomePage(title: 'Material Color Palette'),
+        );
+      },
     );
   }
 }
@@ -55,7 +63,8 @@ class _MyHomePageState extends State<MyHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: "Palette"),
-          BottomNavigationBarItem(icon: Icon(Icons.color_lens), label: "Colors"),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.color_lens), label: "Colors"),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Set"),
         ],
         currentIndex: _selectedIndex,
