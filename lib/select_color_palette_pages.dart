@@ -222,11 +222,12 @@ class _SelectColorPalettePagesState extends State<SelectColorPalettePages> {
     setState(() {
       if (selectPrimaryMode) {
         primaryColor = item;
-        DynamicTheme.of(context)!.setThemeData(Theme.of(context).copyWith(primaryColor: item.color));
       } else {
         accentColor = item;
-        DynamicTheme.of(context)!.setThemeData(Theme.of(context).copyWith(accentColor: item.color));
       }
+      DynamicTheme.of(context)!.setThemeData(ThemeData.from(
+        colorScheme: ColorScheme.fromSwatch(primarySwatch: primaryColor.color, backgroundColor: Colors.white, accentColor: accentColor.color),
+      ));
     });
   }
 
