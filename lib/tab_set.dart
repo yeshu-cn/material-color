@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:launch_review/launch_review.dart';
 import 'package:material_colors/dynamic_theme.dart';
+import 'package:material_colors/version_info.dart';
 
 class TabSet extends StatefulWidget {
   @override
@@ -24,32 +26,6 @@ class _TabSet extends State<TabSet> {
             height: 20,
           ),
           Container(
-            height: 50,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              border: Border(
-                  bottom: BorderSide(width: 1, color: theme.dividerColor)),
-            ),
-            child: ListTile(
-              title: Text("Light/Dark Mode"),
-              trailing: Switch(
-                value: isSwitched,
-                activeColor: theme.primaryColor,
-                activeTrackColor: theme.accentColor,
-                onChanged: (bool value) {
-                  setState(() {
-                    isSwitched = value;
-                    print(isSwitched);
-                    DynamicTheme.of(context)!.setBrightness(value ? Brightness.dark : Brightness.light);
-                  });
-                },
-              ),
-            ),
-          ),
-          SizedBox(
-            height: 50,
-          ),
-          Container(
               height: 50,
               decoration: BoxDecoration(
                   color: Colors.white,
@@ -58,10 +34,32 @@ class _TabSet extends State<TabSet> {
                       bottom: BorderSide(width: 1, color: theme.dividerColor))),
               child: ListTile(
                   title: Text('版本信息', style: theme.textTheme.bodyText2),
+                  onTap: _navigationToVersionInfo,
+                  trailing: Icon(Icons.arrow_forward_ios,
+                      color: theme.iconTheme.color))),
+          Container(
+              height: 50,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  border: Border(
+                      bottom: BorderSide(width: 1, color: theme.dividerColor))),
+              child: ListTile(
+                  title: Text('意见反馈', style: theme.textTheme.bodyText2),
+                  onTap: _navigationToAppStore,
                   trailing: Icon(Icons.arrow_forward_ios,
                       color: theme.iconTheme.color))),
         ],
       ),
     );
+  }
+
+  void _navigationToVersionInfo() {
+    Navigator.push(
+        context, MaterialPageRoute(builder: (context) => VersionInfo()));
+  }
+
+  void _navigationToAppStore() {
+    LaunchReview.launch(
+        androidAppId: "fun.yeshu.poetry", iOSAppId: "1535019603");
   }
 }

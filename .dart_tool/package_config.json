@@ -2,6 +2,18 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "archive",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/archive-3.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "args",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/args-2.2.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/async-2.6.1",
       "packageUri": "lib/",
@@ -38,6 +50,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "crypto",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/crypto-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "cupertino_icons",
       "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/cupertino_icons-1.0.3",
       "packageUri": "lib/",
@@ -68,6 +86,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_launcher_icons",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_launcher_icons-0.9.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/yeshu/Develop/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -80,8 +104,26 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_webview_plugin",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/flutter_webview_plugin-0.4.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "image",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/image-3.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/js-0.6.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "launch_review",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/launch_review-3.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -118,6 +160,12 @@
     {
       "name": "path_provider_windows",
       "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "petitparser",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/petitparser-4.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -242,13 +290,25 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "xml",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/xml-5.1.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "yaml",
+      "rootUri": "file:///Users/yeshu/Develop/flutter/.pub-cache/hosted/pub.flutter-io.cn/yaml-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "material_colors",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-08-10T04:14:20.914185Z",
+  "generated": "2021-08-12T09:12:35.930424Z",
   "generator": "pub",
   "generatorVersion": "2.13.4"
 }

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:material_colors/tab_colors.dart';
-import 'package:material_colors/tab_palette.dart';
+import 'package:material_colors/tab_preview.dart';
 import 'package:material_colors/tab_set.dart';
 
 import 'dynamic_theme.dart';
@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void initState() {
-    _widgetOptions.add(TabPalette());
+    _widgetOptions.add(TabPreview());
     _widgetOptions.add(TabColors());
     _widgetOptions.add(TabSet());
     super.initState();
@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: _widgetOptions.elementAt(_selectedIndex),
       bottomNavigationBar: BottomNavigationBar(
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Palette"),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: "Preview"),
           BottomNavigationBarItem(
               icon: Icon(Icons.color_lens), label: "Colors"),
           BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Set"),

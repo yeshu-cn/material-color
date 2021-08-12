@@ -16,7 +16,7 @@ class _TabColorsState extends State<TabColors> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Colors"),
+        title: Text("Material Colors"),
       ),
       body: _buildMaterialColorList(),
     );return Text("colors");
