@@ -33,7 +33,7 @@ class _TabSet extends State<TabSet> {
                       top: BorderSide(width: 1, color: theme.dividerColor),
                       bottom: BorderSide(width: 1, color: theme.dividerColor))),
               child: ListTile(
-                  title: Text('版本信息', style: theme.textTheme.bodyText2),
+                  title: Text('Version Info', style: theme.textTheme.bodyText2),
                   onTap: _navigationToVersionInfo,
                   trailing: Icon(Icons.arrow_forward_ios,
                       color: theme.iconTheme.color))),
@@ -44,7 +44,7 @@ class _TabSet extends State<TabSet> {
                   border: Border(
                       bottom: BorderSide(width: 1, color: theme.dividerColor))),
               child: ListTile(
-                  title: Text('意见反馈', style: theme.textTheme.bodyText2),
+                  title: Text('Feedback', style: theme.textTheme.bodyText2),
                   onTap: _navigationToAppStore,
                   trailing: Icon(Icons.arrow_forward_ios,
                       color: theme.iconTheme.color))),
@@ -60,6 +60,6 @@ class _TabSet extends State<TabSet> {
 
   void _navigationToAppStore() {
     LaunchReview.launch(
-        androidAppId: "fun.yeshu.poetry", iOSAppId: "1535019603");
+        androidAppId: "fun.yeshu.materialcolor", iOSAppId: "1581064133");
   }
 }

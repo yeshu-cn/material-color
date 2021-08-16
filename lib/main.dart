@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         return MaterialApp(
           title: 'Material Color',
           theme: theme,
+          debugShowCheckedModeBanner: false,
           home: MyHomePage(title: 'Material Color Palette'),
         );
       },

@@ -53,7 +53,7 @@ class _VersionInfoState extends State<VersionInfo> {
           SizedBox(
             height: 10,
           ),
-          Text("Copyright © 2020 HaHa. All Rights Reserved."),
+          Text("Copyright © 2021 HaHa. All Rights Reserved."),
           SizedBox(
             height: 40,
           )
