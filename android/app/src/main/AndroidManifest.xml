@@ -2,7 +2,7 @@
     package="com.example.material_colors">
    <application
         android:label="Material Colors"
-        android:icon="@mipmap/launcher_icon">
+        android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
