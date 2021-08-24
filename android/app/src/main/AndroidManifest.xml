@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.material_colors">
+    package="fun.yeshu.materialcolor">
    <application
         android:label="Material Colors"
         android:icon="@mipmap/ic_launcher">
